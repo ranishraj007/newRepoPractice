@@ -9,13 +9,11 @@ const Home = () => {
       .then((json) => setData(json))
       .catch((error) => console.error("Error fetching data", error));
   }, []);
-  // console.log(data)
-  console.log(data)
 
   return (
     <div>
       {data.map((item, index) => (
-        <h3 key={index}>{item.completed ? item.title : "" }</h3>
+        <h3 key={index}>{item.completed ? item.title : ""}</h3>
       ))}
       this is home page
       <ul>
