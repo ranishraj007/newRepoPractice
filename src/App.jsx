@@ -3,7 +3,8 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-      Todays project
+      <h1>Todays project</h1>
+      Git Hub Commit 
     </div>
   )
 }
